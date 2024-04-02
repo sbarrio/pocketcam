@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		380579461FA23A9B00ED3E2D /* shutter.wav in Resources */ = {isa = PBXBuildFile; fileRef = 380579451FA23A9B00ED3E2D /* shutter.wav */; };
+		381BB16E2447905A00585F37 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 381BB16D2447905A00585F37 /* README.txt */; };
+		381BB1702447B8EE00585F37 /* todo.txt in Resources */ = {isa = PBXBuildFile; fileRef = 381BB16F2447B8EE00585F37 /* todo.txt */; };
+		38359C891D4A5D86000797D3 /* photoSaved.wav in Resources */ = {isa = PBXBuildFile; fileRef = 38359C881D4A5D86000797D3 /* photoSaved.wav */; };
+		383FD4A81C820CAF00AAFFC5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383FD4A71C820CAF00AAFFC5 /* AppDelegate.swift */; };
+		383FD4AA1C820CAF00AAFFC5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383FD4A91C820CAF00AAFFC5 /* ViewController.swift */; };
+		383FD4AD1C820CAF00AAFFC5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 383FD4AB1C820CAF00AAFFC5 /* Main.storyboard */; };
+		383FD4AF1C820CAF00AAFFC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 383FD4AE1C820CAF00AAFFC5 /* Assets.xcassets */; };
+		383FD4B21C820CAF00AAFFC5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 383FD4B01C820CAF00AAFFC5 /* LaunchScreen.storyboard */; };
+		383FD4BD1C820CAF00AAFFC5 /* pocketcamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383FD4BC1C820CAF00AAFFC5 /* pocketcamTests.swift */; };
+		383FD4C81C820CAF00AAFFC5 /* pocketcamUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383FD4C71C820CAF00AAFFC5 /* pocketcamUITests.swift */; };
+		383FD4D61C82106F00AAFFC5 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383FD4D51C82106F00AAFFC5 /* CameraView.swift */; };
+		3895ACE01D478EC800C6F93B /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3895ACDF1D478EC800C6F93B /* Configuration.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		383FD4B91C820CAF00AAFFC5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 383FD49C1C820CAF00AAFFC5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 383FD4A31C820CAF00AAFFC5;
+			remoteInfo = pocketcam;
+		};
+		383FD4C41C820CAF00AAFFC5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 383FD49C1C820CAF00AAFFC5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 383FD4A31C820CAF00AAFFC5;
+			remoteInfo = pocketcam;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		380579451FA23A9B00ED3E2D /* shutter.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = shutter.wav; sourceTree = "<group>"; };
+		381BB16D2447905A00585F37 /* README.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		381BB16F2447B8EE00585F37 /* todo.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = todo.txt; sourceTree = "<group>"; };
+		38359C881D4A5D86000797D3 /* photoSaved.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = photoSaved.wav; sourceTree = "<group>"; };
+		383FD4A41C820CAF00AAFFC5 /* pocketcam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pocketcam.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		383FD4A71C820CAF00AAFFC5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		383FD4A91C820CAF00AAFFC5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		383FD4AC1C820CAF00AAFFC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		383FD4AE1C820CAF00AAFFC5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		383FD4B11C820CAF00AAFFC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		383FD4B31C820CAF00AAFFC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		383FD4B81C820CAF00AAFFC5 /* pocketcamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pocketcamTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		383FD4BC1C820CAF00AAFFC5 /* pocketcamTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pocketcamTests.swift; sourceTree = "<group>"; };
+		383FD4BE1C820CAF00AAFFC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		383FD4C31C820CAF00AAFFC5 /* pocketcamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pocketcamUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		383FD4C71C820CAF00AAFFC5 /* pocketcamUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pocketcamUITests.swift; sourceTree = "<group>"; };
+		383FD4C91C820CAF00AAFFC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		383FD4D51C82106F00AAFFC5 /* CameraView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		3895ACDF1D478EC800C6F93B /* Configuration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		383FD4A11C820CAF00AAFFC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		383FD4B51C820CAF00AAFFC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		383FD4C01C820CAF00AAFFC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		383FD49B1C820CAF00AAFFC5 = {
+			isa = PBXGroup;
+			children = (
+				381BB16F2447B8EE00585F37 /* todo.txt */,
+				381BB16D2447905A00585F37 /* README.txt */,
+				383FD4A61C820CAF00AAFFC5 /* pocketcam */,
+				383FD4BB1C820CAF00AAFFC5 /* pocketcamTests */,
+				383FD4C61C820CAF00AAFFC5 /* pocketcamUITests */,
+				383FD4A51C820CAF00AAFFC5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		383FD4A51C820CAF00AAFFC5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				383FD4A41C820CAF00AAFFC5 /* pocketcam.app */,
+				383FD4B81C820CAF00AAFFC5 /* pocketcamTests.xctest */,
+				383FD4C31C820CAF00AAFFC5 /* pocketcamUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		383FD4A61C820CAF00AAFFC5 /* pocketcam */ = {
+			isa = PBXGroup;
+			children = (
+				38359C881D4A5D86000797D3 /* photoSaved.wav */,
+				380579451FA23A9B00ED3E2D /* shutter.wav */,
+				383FD4A71C820CAF00AAFFC5 /* AppDelegate.swift */,
+				383FD4A91C820CAF00AAFFC5 /* ViewController.swift */,
+				383FD4D51C82106F00AAFFC5 /* CameraView.swift */,
+				3895ACDF1D478EC800C6F93B /* Configuration.swift */,
+				383FD4AB1C820CAF00AAFFC5 /* Main.storyboard */,
+				383FD4AE1C820CAF00AAFFC5 /* Assets.xcassets */,
+				383FD4B01C820CAF00AAFFC5 /* LaunchScreen.storyboard */,
+				383FD4B31C820CAF00AAFFC5 /* Info.plist */,
+			);
+			path = pocketcam;
+			sourceTree = "<group>";
+		};
+		383FD4BB1C820CAF00AAFFC5 /* pocketcamTests */ = {
+			isa = PBXGroup;
+			children = (
+				383FD4BC1C820CAF00AAFFC5 /* pocketcamTests.swift */,
+				383FD4BE1C820CAF00AAFFC5 /* Info.plist */,
+			);
+			path = pocketcamTests;
+			sourceTree = "<group>";
+		};
+		383FD4C61C820CAF00AAFFC5 /* pocketcamUITests */ = {
+			isa = PBXGroup;
+			children = (
+				383FD4C71C820CAF00AAFFC5 /* pocketcamUITests.swift */,
+				383FD4C91C820CAF00AAFFC5 /* Info.plist */,
+			);
+			path = pocketcamUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		383FD4A31C820CAF00AAFFC5 /* pocketcam */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 383FD4CC1C820CAF00AAFFC5 /* Build configuration list for PBXNativeTarget "pocketcam" */;
+			buildPhases = (
+				383FD4A01C820CAF00AAFFC5 /* Sources */,
+				383FD4A11C820CAF00AAFFC5 /* Frameworks */,
+				383FD4A21C820CAF00AAFFC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = pocketcam;
+			productName = pocketcam;
+			productReference = 383FD4A41C820CAF00AAFFC5 /* pocketcam.app */;
+			productType = "com.apple.product-type.application";
+		};
+		383FD4B71C820CAF00AAFFC5 /* pocketcamTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 383FD4CF1C820CAF00AAFFC5 /* Build configuration list for PBXNativeTarget "pocketcamTests" */;
+			buildPhases = (
+				383FD4B41C820CAF00AAFFC5 /* Sources */,
+				383FD4B51C820CAF00AAFFC5 /* Frameworks */,
+				383FD4B61C820CAF00AAFFC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				383FD4BA1C820CAF00AAFFC5 /* PBXTargetDependency */,
+			);
+			name = pocketcamTests;
+			productName = pocketcamTests;
+			productReference = 383FD4B81C820CAF00AAFFC5 /* pocketcamTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		383FD4C21C820CAF00AAFFC5 /* pocketcamUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 383FD4D21C820CAF00AAFFC5 /* Build configuration list for PBXNativeTarget "pocketcamUITests" */;
+			buildPhases = (
+				383FD4BF1C820CAF00AAFFC5 /* Sources */,
+				383FD4C01C820CAF00AAFFC5 /* Frameworks */,
+				383FD4C11C820CAF00AAFFC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				383FD4C51C820CAF00AAFFC5 /* PBXTargetDependency */,
+			);
+			name = pocketcamUITests;
+			productName = pocketcamUITests;
+			productReference = 383FD4C31C820CAF00AAFFC5 /* pocketcamUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		383FD49C1C820CAF00AAFFC5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 1210;
+				ORGANIZATIONNAME = "Sergio Barrio Slocker";
+				TargetAttributes = {
+					383FD4A31C820CAF00AAFFC5 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = JBCYF4GDKA;
+						LastSwiftMigration = 1140;
+					};
+					383FD4B71C820CAF00AAFFC5 = {
+						CreatedOnToolsVersion = 7.2.1;
+						LastSwiftMigration = 1140;
+						TestTargetID = 383FD4A31C820CAF00AAFFC5;
+					};
+					383FD4C21C820CAF00AAFFC5 = {
+						CreatedOnToolsVersion = 7.2.1;
+						LastSwiftMigration = 1140;
+						TestTargetID = 383FD4A31C820CAF00AAFFC5;
+					};
+				};
+			};
+			buildConfigurationList = 383FD49F1C820CAF00AAFFC5 /* Build configuration list for PBXProject "pocketcam" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 383FD49B1C820CAF00AAFFC5;
+			productRefGroup = 383FD4A51C820CAF00AAFFC5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				383FD4A31C820CAF00AAFFC5 /* pocketcam */,
+				383FD4B71C820CAF00AAFFC5 /* pocketcamTests */,
+				383FD4C21C820CAF00AAFFC5 /* pocketcamUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		383FD4A21C820CAF00AAFFC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				383FD4B21C820CAF00AAFFC5 /* LaunchScreen.storyboard in Resources */,
+				383FD4AF1C820CAF00AAFFC5 /* Assets.xcassets in Resources */,
+				380579461FA23A9B00ED3E2D /* shutter.wav in Resources */,
+				383FD4AD1C820CAF00AAFFC5 /* Main.storyboard in Resources */,
+				381BB16E2447905A00585F37 /* README.txt in Resources */,
+				38359C891D4A5D86000797D3 /* photoSaved.wav in Resources */,
+				381BB1702447B8EE00585F37 /* todo.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		383FD4B61C820CAF00AAFFC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		383FD4C11C820CAF00AAFFC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		383FD4A01C820CAF00AAFFC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				383FD4D61C82106F00AAFFC5 /* CameraView.swift in Sources */,
+				383FD4AA1C820CAF00AAFFC5 /* ViewController.swift in Sources */,
+				3895ACE01D478EC800C6F93B /* Configuration.swift in Sources */,
+				383FD4A81C820CAF00AAFFC5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		383FD4B41C820CAF00AAFFC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				383FD4BD1C820CAF00AAFFC5 /* pocketcamTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		383FD4BF1C820CAF00AAFFC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				383FD4C81C820CAF00AAFFC5 /* pocketcamUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		383FD4BA1C820CAF00AAFFC5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 383FD4A31C820CAF00AAFFC5 /* pocketcam */;
+			targetProxy = 383FD4B91C820CAF00AAFFC5 /* PBXContainerItemProxy */;
+		};
+		383FD4C51C820CAF00AAFFC5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 383FD4A31C820CAF00AAFFC5 /* pocketcam */;
+			targetProxy = 383FD4C41C820CAF00AAFFC5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		383FD4AB1C820CAF00AAFFC5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				383FD4AC1C820CAF00AAFFC5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		383FD4B01C820CAF00AAFFC5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				383FD4B11C820CAF00AAFFC5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		383FD4CA1C820CAF00AAFFC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		383FD4CB1C820CAF00AAFFC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		383FD4CD1C820CAF00AAFFC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 12;
+				DEVELOPMENT_TEAM = JBCYF4GDKA;
+				INFOPLIST_FILE = pocketcam/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sbarrio.pocketcam;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		383FD4CE1C820CAF00AAFFC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 12;
+				DEVELOPMENT_TEAM = JBCYF4GDKA;
+				INFOPLIST_FILE = pocketcam/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sbarrio.pocketcam;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		383FD4D01C820CAF00AAFFC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = pocketcamTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sbarrio.pocketcamTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pocketcam.app/pocketcam";
+			};
+			name = Debug;
+		};
+		383FD4D11C820CAF00AAFFC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = pocketcamTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sbarrio.pocketcamTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pocketcam.app/pocketcam";
+			};
+			name = Release;
+		};
+		383FD4D31C820CAF00AAFFC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = pocketcamUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sbarrio.pocketcamUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = pocketcam;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		383FD4D41C820CAF00AAFFC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = pocketcamUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sbarrio.pocketcamUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = pocketcam;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		383FD49F1C820CAF00AAFFC5 /* Build configuration list for PBXProject "pocketcam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				383FD4CA1C820CAF00AAFFC5 /* Debug */,
+				383FD4CB1C820CAF00AAFFC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		383FD4CC1C820CAF00AAFFC5 /* Build configuration list for PBXNativeTarget "pocketcam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				383FD4CD1C820CAF00AAFFC5 /* Debug */,
+				383FD4CE1C820CAF00AAFFC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		383FD4CF1C820CAF00AAFFC5 /* Build configuration list for PBXNativeTarget "pocketcamTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				383FD4D01C820CAF00AAFFC5 /* Debug */,
+				383FD4D11C820CAF00AAFFC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		383FD4D21C820CAF00AAFFC5 /* Build configuration list for PBXNativeTarget "pocketcamUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				383FD4D31C820CAF00AAFFC5 /* Debug */,
+				383FD4D41C820CAF00AAFFC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 383FD49C1C820CAF00AAFFC5 /* Project object */;
+}

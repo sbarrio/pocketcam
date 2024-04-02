@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "CameraView.setImageToEdit(UIImage) -&gt; ():CameraView.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "image.CIImage">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CameraView.createCubeData(dmg1:dmg2:dmg3:dmg4:):CameraView.swift">
+      </ContextState>
+      <ContextState
+         contextName = "CameraView.captureOutput(AVCaptureOutput!, didOutputSampleBuffer : CMSampleBuffer!, fromConnection : AVCaptureConnection!) -&gt; ():CameraView.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.outImageToProcess">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
